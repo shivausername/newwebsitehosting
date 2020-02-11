@@ -1,0 +1,716 @@
+body {
+    font-family: Calibri;
+    background-color: #ffffff;
+}
+.navbar-collapse ul li a {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.navbar-text{
+    box-sizing: border-box;
+}
+
+.navbar-collapse ul li a:hover {
+    background-color: #00b0ff;
+    border-radius: 10px 0 10px 0px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px) {
+    nav ul li a {
+        text-align: center;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+        #search-button {
+            position: absolute;
+            top: 70px;
+            left: 170px;
+        }
+}
+.nav-link{
+    border-radius: 10px 0 10px 0;
+    background-color: transparent;
+}
+@media screen and (min-width:500px) {
+    nav .navbar-toggler-icon{
+        position: absolute;
+        right: 8px;
+        top: 14px;
+    }
+}
+
+.active {
+    color: white;
+    border-radius: 10px 0 10px 0px;
+}
+#sliderSection{
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 100px;
+}
+#sliderSection img{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+#sliderSection .col-md-6:nth-child(2) {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    font-family: Calibri;
+}
+
+#sliderSection .col-md-6:nth-child(2) h1 {
+   color: #00b0ff;
+    font-weight: bold;
+    font-family: "Calibri";
+}
+#sliderSection .col-md-6:nth-child(2) .fa-video{
+    text-align: center;
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px){
+    #sliderSection .col-md-6 p{
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+}
+
+.search-section {
+    background-color: silver;
+    padding: 10px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.search-section .form-group button{
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: #00b0ff;
+}
+.search-section .col-md-6:nth-child(2){
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.skills-section .col-lg-8 {
+    text-align: center;
+    font-family: "Calibri";
+    padding: 10px;
+    background-color: white;
+}
+.skills-section .col-lg-8 h3{
+    color: #00b0ff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills-section .col-md-3  {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.skills-section .col-md-3  span {
+    text-align: center;
+    font-size: 50px;
+    color: #00b0ff;
+}
+.skills-section .row .col{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-family: "Calibri Light";
+    font-weight: bold;
+}
+
+.future-section {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.future-section .col-sm-6 h2 {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+.future-section .col-sm-6 p {
+    line-height: 40px;
+    text-align: justify;
+    font-family: "Calibri";
+}
+
+.future-section .col-sm-6 img{
+    text-align: center;
+    right: 0;
+}
+
+.card-section .col{
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 15px;
+}
+.card-section {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card-section .col-md-3 i {
+        font-size: 150px;
+         color: #00b0ff;
+}
+
+.card-section .card:hover{
+    background-color: #00b0ff;
+    color: white;
+    border: 1px solid white;
+}
+@media only screen and (min-width: 500px) {
+    .card-section .col-md-3{
+        width: 50%;
+    }
+}
+
+
+.product-section {
+    padding: 20px;
+    font-family: Calibri;
+}
+.product-section .col-sm-6{
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-section .col-sm-6 .fa-arrow-alt-circle-down{
+    font-size: 50px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.product-section .col-sm-6 details{
+    background-color: lightcyan;
+    color: black;
+    text-align: justify;
+    padding: 5px;
+}
+.product-section .col-sm-6 summary{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.number-section {
+    padding-top: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px){
+    .number-section .col-md-3{
+        width: 50%;
+    }
+}
+
+footer{
+    padding-top: 20px;
+    background-color: #00b0ff;
+    color: white;
+    text-align: center;
+}
+footer .col-md-4 img{
+    width: 40%;
+}
+
+.about-section {
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+.about-section .about-title{
+    letter-spacing: 0;
+    line-height: 30px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.about-section  p{
+    line-height: 25px;
+    padding-top: 20px;
+}
+.about-section .about-title:after{
+    background-color: #00b0ff;
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 200px;
+    top: 36px;
+    left: 0;
+}
+.about-section .read-more {
+    border: 2px solid #00b0ff;
+    border-radius: 25px;
+    color: #00b0ff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.about-section .col-sm-4 .feature-box .feature-content h4:after{
+    background-color: #00b0ff;
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 150px;
+    left: 17px;
+    top: 30px;
+}
+.feature-box .feature-content h4:after{
+    background-color: #00b0ff;
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 150px;
+    left: 17px;
+    top: 30px;
+}
+
+.jumbotron-section {
+    background-color: whitesmoke;
+    padding-top: 30px;
+    color: black;
+}
+.jumbotron-section .jumbotron-fluid h1 {
+    font-family: "Calibri Light";
+    letter-spacing: 0;
+}
+.jumbotron-section .about-text p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+.jumbotron-section .about-text h1:after{
+    background-color: #00b0ff;
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 150px;
+    left: 17px;
+    top: 43px;
+}
+
+.about-cards .col {
+    padding: 60px 0 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-cards .icon{
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 32px);
+
+}
+.about-cards .box{
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+.about-cards .box:hover{
+    transform: perspective(400px) translateY(-20px);
+}
+.about-cards .title{
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.about-cards .description{
+    font-size: 15px;
+    margin-left: 15px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.manager-section {
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.manager-section img{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+.manager-section .box img:hover{
+   transform: perspective(200px) translateY(20px);
+}
+
+.manager-section .box .text-box{
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    padding: 10px;
+}
+
+.web-section {
+    font-family: "Calibri";
+    margin-top: 40px;
+   padding-bottom: 20px;
+}
+.web-section .col-md-6 .lead{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.web-section .col-md-6 .web-button{
+    border: 2px solid #00b0ff;
+    border-radius: 10px;
+    color: #00b0ff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.web-section .col-md-6 .web-button:hover{
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    cursor: pointer;
+}
+
+.web-section .col-md-6 a img{
+    width: 80%;
+    position: relative;
+    right: -30px;
+    transition: 0.3s ease-in-out;
+}
+.web-section .col-md-6 a img:hover{
+  transform: perspective(200px) translateY(10px);
+    transition: 0.3s ease-in-out;
+}
+
+    /*---------------------------- pricing section ---------------------------------*/
+
+.price-section{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.price-section .col{
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+.price-section h2{
+    color: #00b0ff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Calibri Light";
+}
+.price-section .col-md-3 .card{
+    background-color: white;
+    color: black;
+    font-family: "Calibri";
+    text-align: center;
+    transition: all 0.5s;
+}
+.price-section .col-md-3 .card h3{
+    color: #00b0ff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.price-section .col-md-3 .card a{
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #00b0ff;
+}
+.price-section .col-md-3 .card:hover{
+    background-color: white;
+    color: #00b0ff;
+    transform: perspective(500px) rotateY(10deg);
+}
+
+.price-section .col-md-3 .card a:hover, a:focus{
+    background-color: #00b0ff;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.4s ease 0s;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1200px) {
+    .price-section .col-md-3{
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+    /*------------------------ employee section ------------------------------*/
+
+.employee-section{
+    padding-top: 20px;
+}
+.employee-section .col-lg-12  h3{
+    color: #00b0ff;
+    text-align: center;
+    font-family: Calibri;
+    text-transform: uppercase;
+}
+.employee-section .col-lg-12 p{
+    text-align: center;
+}
+.employee-section .col-lg-3 .box{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+.employee-section .col-lg-3 .box:hover{
+    transform: perspective(500px) rotateY(10deg);
+    background-color: whitesmoke;
+    color: black;
+}
+.employee-section .col-lg-3 .box img{
+    border-radius: 100px;
+    width: 50%;
+    padding-bottom: 5px;
+}
+.employee-section .col-lg-3 .box h5{
+    text-transform: uppercase;
+    color: darkturquoise;
+}
+@media only screen and (min-width: 500px) and (max-width: 968px) {
+    .employee-section .col-lg-3{
+        width: 50%;
+    }
+}
+
+    /*------------------- terms section -------------------------------------*/
+.terms-section{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.terms-section .col-lg-8 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00b0ff;
+    font-family: Calibri;
+    font-size: 25px;
+}
+.terms-section .col-lg-4 h4{
+    text-transform: uppercase;
+    color: #00b0ff;
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+}
+.terms-section .col-lg-8 p:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+    /*----------------- completed projects -------------------------------*/
+
+.completed-projects {
+    padding: 30px;
+}
+.completed-projects .col-lg-12 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00b0ff;
+    font-family: Calibri;
+    font-size: 25px;
+}
+.completed-projects .col-lg-3 .card p{
+    text-align: justify-all;
+    padding-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.completed-projects .col-lg-3 .card:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: perspective(400px) translateY(10px);
+    transition: all 0.5s ease-in-out;
+}
+.completed-projects .col-lg-3 .card .card-body a{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #00b0ff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    left: 20px;
+}
+.completed-projects .col-lg-3 .card img{
+    width: 100%;
+    height: 150px;
+    padding-bottom: 11px;
+}
+.completed-projects #second-row{
+    padding-top: 20px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .completed-projects .col-lg-3 #second-row{
+        width: 50%;
+        padding: 10px;
+    }
+    .completed-projects .col-lg-3 .card .card-body a{
+        font-size: 10px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+    /*---------------- marquee section -------------------------------*/
+.marquee-section{
+    padding: 20px;
+    text-align: center;
+}
+.marquee-section h1{
+    text-align: center;
+    color: #00b0ff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+    /*-------------------------------------reviews section--------------------------------*/
+
+.reviews-section{
+    padding: 20px;
+    background-color: white;
+}
+.reviews-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #00b0ff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.reviews-section .col-sm-4 img{
+    width: 100%;
+}
+
+.reviews-section .col-md-8 h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #00b0ff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.reviews-section .col-md-8 p{
+    color: black;
+}
+.reviews-section  .reviews{
+    padding: 20px;
+}
+.reviews-section  .reviews .card{
+    padding: 10px;
+    border-radius: 20px;
+}
+.reviews-section  .reviews .card:hover{
+    background-color: whitesmoke;
+    color: white;
+}
+.reviews-section  .reviews .card h5{
+    color: #00b0ff;
+}
+.reviews-section  .reviews .card .checked{
+    color: orange;
+}
+.reviews-section .col-md-4 img{
+    width: 100%;
+
+}
+
+/*--------------------contact section -----------------------*/
+
+.form-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form-section h3{
+  color: #00b0ff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-section form label{
+    color: black;
+    font-family: "Calibri Light";
+    position: relative;
+    right: 0;
+}
+.form-section form a{
+    color: #00b0ff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid #00b0ff;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 5px 11px 0 rgba(68, 88, 144, 0.1);
+}
+.form-section .map iframe{
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section .jumbotron{
+    padding: 15px;
+    text-align: center;
+
+}
+section .jumbotron h3{
+    color: #00b0ff;
+    text-align: center;
+}
+section .jumbotron:hover{
+    background-color: whitesmoke;
+}
